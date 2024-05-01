@@ -1,0 +1,59 @@
+.container {
+  background: #564983;
+  width: 230px;
+  margin: 150px 0px 0px 72px;
+  font-size: 30px;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+  transform: rotate(90deg);
+  border: 0px solid black;
+  border-radius: 10px;
+  color: #C4BEDA;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  font-size: 0px;
+  width: 530px;
+  background: #564983;
+  z-index: -1;
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+.text {
+  color: #C4BEDA;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 380px;
+  -webkit-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+.div1 {
+  height: 760px;
+  background: #7C81AD;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+body {
+  background: #C4BEDA;
+
+}
